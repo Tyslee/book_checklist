@@ -1,0 +1,42 @@
+<head>
+    <meta charset = "UTF-8">
+    <link rel = "stylesheet" type = "text/css" href = "styles.css">
+    <title>Book Checklist</title>
+</head>
+<body>
+    <div id = "container">
+        <div id = header>
+            <h1>Book List</h1>
+        </div>
+        <div id = "enterBook">
+            <div id = "enterBName">
+                <label for = "bName">Book Name:</label>
+                <input type = "text" id = bName>
+            </div>
+            <div id = "enterBAuthor">
+                <label for = "bAuthor">Book Author:</label>
+                <input type = "text" id = bAuthor>
+            </div>
+            <div id = 'addWrap'>
+                <button id = "add">Add</button>
+            </div>
+        </div>
+
+        <hr>
+
+        <div id = library>
+            <div class = 'book'>
+                <div class = 'info'>
+                    <p>Book Title: Animal Farm</p>
+                    <p>Book Author: George Orwell</p>
+                </div>
+
+                <div class = 'extra'>
+                    <input type = 'checkbox' class = 'finish'>
+                    <p class = "dates">Date: blah</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type = "text/javascript", src = "script.js"></script>

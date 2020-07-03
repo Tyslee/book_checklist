@@ -1,0 +1,83 @@
+@font-face{
+    font-family: 'JoseBold';
+    src: url('JosefinSlab-Bold.ttf');
+}
+
+#container{
+    margin: 0 auto;
+    width: 90vmin;
+    border: solid;
+    overflow: auto;
+}
+
+@font-face{
+    font-family: 'JosefinSlab';
+    src: url('JosefinSlab-Thin.ttf');
+}
+
+* {
+    font-family: 'JoseBold';
+    font-size: 2vmin;;
+}
+
+h1{
+    text-align: center;
+    font-family: 'JosefinSlab';
+    font-size: 5vmin;
+}
+
+#enterBName{
+    margin-left: 6vmin;
+    float: left;
+}
+
+#enterBAuthor{
+    margin-right: 6vmin;
+    float: right;
+}
+
+#addWrap{
+    text-align: center;
+}
+
+#add{
+    margin-top: 2vmin;
+    margin-bottom: 1vmin;
+    width: 16vmin;
+    height: 4vmin;
+    background-color: white;
+    border: solid;
+}
+
+hr{
+    width: 90%;
+}
+
+.book{
+    height:10vmin;
+}
+
+.info{
+    margin-left: 4vmin;
+    width: 45%;
+    float: left;
+}
+
+.extra{
+    width: 45%;
+    float: right;
+    height: 100%;
+}
+
+.dates{
+    float: right;
+    margin-top: 57px;
+}
+
+.finish{
+    appearance: none;
+    margin-top: 20px;
+    margin-right: 7vmin;
+    float: right;
+    top: 0;
+}

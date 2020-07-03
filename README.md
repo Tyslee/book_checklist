@@ -1,0 +1,1 @@
+A simple book checklist allowing the user to add books to a list and mark which ones have already been read
